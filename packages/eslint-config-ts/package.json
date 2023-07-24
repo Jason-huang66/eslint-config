@@ -1,0 +1,28 @@
+{
+  "name": "@Jason-huang66/eslint-config-ts",
+  "version": "0.1.1",
+  "description": "",
+  "author": "Jason-huang66",
+  "license": "MIT",
+  "homepage": "https://github.com/Jason-huang66/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=4.2"
+  },
+  "dependencies": {
+    "@Jason-huang66/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-plugin-jest": "^27.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@Jason-huang66/eslint-config-react",
+  "version": "0.1.1",
+  "packageManager": "pnpm@8.6.7",
+  "author": "Jason-huang66",
+  "license": "MIT",
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@Jason-huang66/eslint-config-basic": "workspace:*",
+    "@Jason-huang66/eslint-config-ts": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}

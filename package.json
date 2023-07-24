@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config",
+  "version": "0.1.1",
+  "packageManager": "pnpm@8.6.7",
+  "private": true,
+  "author": "Jason-huang66",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "pnpm -r run stub && eslint .",
+    "test": "pnpm -r run test",
+    "build": "pnpm -r run build",
+    "bump": "bumpp -r",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp -r && pnpm -r publish"
+  },
+  "devDependencies": {
+    "@evanryuu/eslint-config": "workspace:*",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.45.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}

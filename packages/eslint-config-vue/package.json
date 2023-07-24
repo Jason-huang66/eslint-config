@@ -1,0 +1,26 @@
+{
+  "name": "@Jason-huang66/eslint-config-vue",
+  "version": "0.1.1",
+  "description": "",
+  "author": "Jason-huang66",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@Jason-huang66/eslint-config-basic": "workspace:*",
+    "@Jason-huang66/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.15.1",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
